@@ -217,6 +217,7 @@ li {
 	display: inline-block;
 	margin-left: 2rem;
 	background: white;
+	border:1px solid black;
 }
 .item>img{
     position: absolute;
