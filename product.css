@@ -155,6 +155,7 @@ p{
 
 /* --------------footer---------------- */
 .recommended-container{
+    z-index: -5;
     position: relative;
     margin-top:3rem;
     width: 100%;
@@ -191,7 +192,7 @@ li {
 
 
 .wrapper {
-    margin-top:5rem;
+    margin-top:2rem;
     height: 100%;
 	position: relative;
 }
@@ -287,14 +288,13 @@ input[type="email"]{
     font-size:1.5rem
 }
 
-
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
     .item {
-		width: 80%;	
-        padding-bottom:90%;
+		width: 75% !important;
+        padding-bottom:90% !important;
 	}
-}
+
 
 @media screen and (min-width: 600px) {
 
