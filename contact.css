@@ -93,6 +93,7 @@ p{
     align-items: center;
 }
 .sidebar{
+   z-index:3;
   position: fixed;
   top:5rem;
   background:#EFEFEF;
