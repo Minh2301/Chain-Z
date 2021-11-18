@@ -249,7 +249,13 @@ h3{
     background:white;
     color:black;
     text-align: center;
-    font-size:1rem
+    font-size:1rem;
+    transition: 0.3s;
+}
+.footer-btn:hover{
+    background-color: black;
+    color:white;
+    border:1px solid white
 }
 @media (min-width:770px){
     li a{
