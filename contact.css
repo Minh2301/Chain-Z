@@ -198,7 +198,13 @@ h3{
     background:white;
     color:black;
     text-align: center;
-    font-size:1.5rem
+    font-size:1.5rem;
+    transition: 0.3s;
+}
+.footer-btn:hover{
+    border: 1px solid white;
+    background:black;
+    color:white
 }
 .icon-insta{
     width:58px;
