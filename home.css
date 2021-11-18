@@ -177,7 +177,11 @@ p{
     padding: 0.8em 0;
     text-align: center;
     font-size: 1rem;
-    border:0.5px solid black
+    border:0.5px solid black;
+    transition: 0.3s;
+}.collection-btn:hover{
+  background:black;
+  color:white;
 }
 .img-product-row{
     margin:0 auto;
@@ -276,7 +280,13 @@ h3{
     background:white;
     color:black;
     text-align: center;
-    font-size:1.5rem
+    font-size:1.5rem;
+    transition: 0.3s;
+}
+.footer-btn:hover{
+    border: 1px solid white;
+    background:black;
+    color:white
 }
 @media (min-width:770px){
     li a{
